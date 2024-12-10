@@ -20,7 +20,7 @@ export default function Widget({ config }: Props) {
   const style = {
     width: customStyle.width || customStyle.size || '60px',
     height: buttonHeight,
-    bgcolor: customStyle.bgcolor || '#F80061',
+    bgcolor: customStyle.bgcolor || '#367E7F',
     color: customStyle.color || 'white',
     '&:hover': {
       bgcolor: customStyle.bgcolorHover || '#DA0054'
